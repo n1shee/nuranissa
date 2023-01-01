@@ -1,0 +1,87 @@
+<html>
+<head><title>Family</title></head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #FFE4E1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #800000;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #F08080;
+  color: white;
+}
+
+div.content {
+  text-align: center;
+  font-size: 140%;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+</style>
+</head>
+<body background="bgbutterfly.png">
+
+<div class="sidebar">
+  <a class="active" href=Family.html>Family &#128106;</a>
+  <a href=index.html>Homepage &#127800;</a>
+  <a href=Biodata.html>Biodata &#129300;</a>
+  <a href=Pet.html>Pets &#128062;</a>
+  <a href=Hobby.html>Hobby &#129526;</a>
+  <a href=Edu.html>Education Background &#128218;</a>
+  <a href=Extra.html>Extra</a>
+</div>
+
+<div class="content">
+  <h1><font face=Luminari>Meet My Family &#10024;</font></h1>
+  <img src=Family1.jpg width=800 height=650>
+  <p><font face="Times New Roman">This is my simple sweet family. The couple wearing red is my grandparents who lived in Matu. Let me show you more of my family</font></p>
+
+<a href=Family2.html>More on my family</a>
+</div>
+
+
+</body>
+</body>
+</html>

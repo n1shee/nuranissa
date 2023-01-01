@@ -1,0 +1,131 @@
+<html>
+<head><title>Biodata</title></head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+table {
+  border-collapse: collapse;
+  width:"70%";
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #B0E0E6;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #FFE4E1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #800000;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #F08080;
+  color: white;
+}
+
+div.content {
+  text-align: center;
+  font-size: 140%;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+img {
+  float: right;
+
+@media screen and (max-width: 1000px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+</style>
+</head>
+<body bgcolor=#B0C4DE>
+
+<div class="sidebar">
+  <a class="active" href=Biodata.html>Biodata &#129300;</a>
+  <a href=index.html>Homepage &#127800;</a>
+  <a href=Family.html>Family &#128106;</a>
+  <a href=Pet.html>Pets &#128062;</a>
+  <a href=Hobby.html>Hobby &#129526;</a>
+  <a href=Edu.html>Education Background &#128218;</a>
+  <a href=Extra.html>Extra</a>
+</div>
+
+<div class="content">
+  <h1><font face=Luminari>It's me, Anissa &#10024;</font></h1>
+  <img src=IDPIC.jpg width=350 height=500 align=left>
+  <table border=5 width=50%>
+  <tr>
+  <td>Name</td>
+  <td>Nur Anissa Binti Adillah</td>
+  </tr>
+  <tr>
+  <td>Age</td>
+  <td>21</td>
+  </tr>
+  <tr>
+  <td>Programme</td>
+  <td>Bachelor in Business Administration(Hons.)Finance</td>
+  </tr>
+  <tr>
+  <td>Birthplace</td>
+  <td>Hospital Sibu</td>
+  </tr>
+  <tr>
+  <td>Date of Birth</td>
+  <td>29 August 2001</td>
+  </tr>
+  <tr>
+  <td>Religion</td>
+  <td>Islam</td>
+  </tr>
+  <tr>
+  <td>Address</td>
+  <td>Lorong Laichee, 96000, Sibu, Sarawak</td>
+  </tr>
+  </table>
+  
+  
+</div>
+
+</body>
+</body>
+</html>

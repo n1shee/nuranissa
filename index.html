@@ -1,0 +1,86 @@
+<html>
+<head><title>Hello!</title></head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #FFE4E1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #800000;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #F08080;
+  color: white;
+}
+
+div.content {
+  text-align: center;
+  font-size: 140%;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 1000px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+</style>
+</head>
+<body background="bgbutterfly.png">
+
+<div class="sidebar">
+  <a class="active" href="#Hello!">Hello! &#127800;</a>
+  <a href=Biodata.html>Biodata &#129300;</a>
+  <a href=Family.html>Family &#128106;</a>
+  <a href=Pet.html>Pets &#128062;</a>
+  <a href=Hobby.html>Hobby &#129526;</a>
+  <a href=Edu.html>Education Background &#128218;</a>
+  <a href=Extra.html>Extra</a>
+</div>
+
+<div class="content">
+  <h1><font face=Luminari>It's me, Anissa &#10024;</font></h1>
+  <center><img src=picture.jpeg width=300 height=400></center>
+  <p style="background-color:LavenderBlush;">Life sure is strange. Let me briefly introduce myself to you. My name is Nur Anissa Binti Adillah. I am known with several alias such as Nishe and Suuri.My student id is <strong>2022782707</strong>. I am a student of <abbr title= "Bachelor in Business Administration(Hons.) Finance">BBA Finance</abbr>. I create this website as an Individual Assignment for subject <abbr title= "Basic Web Design and Content Management">IMS456</abbr>. This website is Prepared<p>
+  
+  
+</div>
+
+</body>
+</body>
+</html>

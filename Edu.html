@@ -1,0 +1,123 @@
+<html>
+<head><title>Education</title></head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+table {
+  border-collapse: collapse;
+  width:"70%";
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #B0E0E6;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #FFE4E1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #800000;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #F08080;
+  color: white;
+}
+
+div.content {
+  text-align: center;
+  font-size: 140%;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+  float: center;
+}
+
+img {
+  float: center;
+
+@media screen and (max-width: 1000px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+</style>
+</head>
+<body bgcolor=Linen>
+
+<div class="sidebar">
+  <a class="active" href=Edu.html>Education Background &#128218;</a>
+  <a href=index.html>Homepage &#127800;</a>
+  <a href=Biodata.html>Biodata &#129300;</a>
+  <a href=Family.html>Family &#128106;</a>
+  <a href=Pet.html>Pets &#128062;</a>
+  <a href=Hobby.html>Hobby &#129526;</a>
+  <a href=Extra.html>Extra</a>
+</div>
+
+<div class="content">
+<h1>SJK(c) Chung Hua</h1>
+<img src=primaryschool.jpeg align=center width=300 height=150>
+<ul type=square>
+<li>Started 2008
+<li>Ended 2013
+<li>UPSR: 4A 1B 1D 1E
+</ul>
+  
+<h1>SMK Methodist</h1>
+<img src=secondaryschool.jpeg align=center width=300 height=150>
+<ul type=square>
+<li>Started 2014
+<li>Ended 2018
+<li>PT3= 7A 3B
+<li>SPM= 8A 1B
+</ul>
+
+<h1>UiTM Mukah</h1>
+<img src=universiti.jpeg align=center width=300 height=150>
+<ul type=square>
+<li>Diploma in Business Studies
+<li>Started 2019
+<li>Ended 2022
+<li>CGPA=3.52
+</ul>
+</div>
+
+</body>
+</body>
+</html>
